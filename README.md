@@ -1,6 +1,6 @@
 # HTMLCSSJavaScriptProjects
 Created Html Css JavaScript projects
-- Weater Search App
+- Weather Search App
 - Todo list app
 - Toast Notification
 - side Nav Bar
