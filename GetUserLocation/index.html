@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get User Location</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="geo-btn">show user location</button>
+    <p class="showDetails">User Location details</p>
+    <script>
+        const showDetails=document.querySelector('.showDetails');
+
+        document.querySelector('.geo-btn').addEventListener('click',()=>{
+            if(navigator.geolocation){
+                navigator.geolocation.getCurrentPosition(
+                    (positon)=>{
+                       const {latitude,longitude}=positon.coords;
+                       showDetails.textContent=`the latitude ${latitude} & the longitude ${longitude}`;
+                    },
+                    (error)=>{
+                       showDetails.textContent=error.message;
+                    }
+                )
+            }
+        })
+    </script>
+</body>
+</html>

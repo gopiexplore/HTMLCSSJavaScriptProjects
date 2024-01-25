@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #ea6262;
+    text-align: center;
+    padding-top: 25%;
+}
+.geo-btn{
+    font-size: 24px;
+    outline: 0;
+    border: 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+.showDetails{
+    font-size: 45px;
+    color: aliceblue;
+}
