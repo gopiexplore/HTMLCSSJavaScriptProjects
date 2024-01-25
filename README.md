@@ -11,4 +11,4 @@ Created Html Css JavaScript projects
 - Notes Taking app
 - Animated Search bar
 - Age Calculator
-- 
+- Get User Geo Location 
